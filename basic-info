@@ -1,0 +1,47 @@
+What is devops? => DevOps is a software development approach emphasizing collaboration, automation, and continuous delivery to provide high-quality products to customers quickly and efficiently.
+
+Cycle of devops. => DevOps Lifecycle is the set of phases that includes DevOps for taking part in Development and Operation group duties for quicker software program delivery. DevOps follows positive 
+techniques that consist of code, building, testing, releasing, deploying, operating, displaying, and planning. DevOps lifecycle follows a range of phases such as non-stop development, non-stop integration, 
+non-stop testing, non-stop monitoring, and non-stop feedback.
+
+What is service? => In DevOps, "service" typically refers to a component or application that provides specific functionality within a software system. These services are often designed to be modular, loosely coupled,
+and independently deployable. Each service performs a specific task or set of tasks and communicates with other services through well-defined interfaces, such as APIs.
+Services are often organized according to the microservices architectural pattern, where large applications are broken down into smaller, manageable services that can be developed, deployed, and scaled independently. 
+This approach allows teams to focus on specific features or functionalities, enabling faster development cycles, easier maintenance, and improved scalability.
+
+What is microservice? => Microservice is a small, loosely coupled distributed service. Each microservice is designed to perform a specific business function and can be developed, deployed, and scaled independently. 
+It allows you to take a large application and decompose or break it into easily manageable small components with narrowly defined responsibilities. It is considered the building block of modern applications. 
+Microservices can be written in a variety of programming languages, and frameworks, and each service acts as a mini-application on its own.
+
+What is monolithic and microlithic architecture? =>Monolithic Architecture:
+
+In a monolithic architecture, the entire application is built as a single, self-contained unit. All components of the application, including the user interface, business logic, and data access layers,
+are tightly integrated and deployed as a single executable or a single codebase. Monolithic applications typically run on a single server or a small cluster of servers.
+
+Advantages of Monolithic Architecture:
+
+Simplicity: Easier to develop, test, and deploy due to its single-unit nature.
+Performance: Lower overhead as components communicate directly with each other.
+Traditional: Many legacy systems are built with monolithic architecture.
+
+Disadvantages of Monolithic Architecture:
+
+Scalability: Scaling the application can be challenging because the entire application needs to be replicated.
+Maintenance: Changes to one part of the application may require rebuilding and redeploying the entire application.
+Technology Diversity: Limited flexibility in using different technologies for different components.
+Microlithic Architecture:
+
+Microlithic architecture is a hybrid approach that combines the simplicity of monolithic architecture with the modularity and scalability of microservices architecture. In a microlithic architecture, 
+the application is divided into smaller, independently deployable units called "microliths." Each microlith encapsulates a specific business domain or functionality, and it can be developed, deployed, and 
+scaled independently.
+
+Advantages of Microlithic Architecture:
+
+Modularity: Easier to understand, develop, and maintain than a monolith, but still simpler than full microservices.
+Scalability: More scalable than a monolith because individual microliths can be scaled independently.
+Flexibility: Allows for using different technologies for different microliths, providing more flexibility than a monolithic architecture.
+
+Disadvantages of Microlithic Architecture:
+
+Complexity: Although less complex than microservices, microlithic architectures still introduce some additional complexity compared to monoliths.
+Integration: Requires careful consideration of how microliths interact with each other to avoid creating tightly coupled components.
