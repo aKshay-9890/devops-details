@@ -1,0 +1,41 @@
+Difference Between Git Fetch and Git Pull:-
+
+Git Fetch -> Used to fetch all changes from the remote repository to the local repository without merging into the current working directory	
+Git Pull -> Brings the copy of all the changes from a remote repository and merges them into the current working directory
+
+Git Fetch -> Repository data is updated in the .git directory	
+Git Pull -> The working directory is updated directly
+
+Git Fetch -> Review of commits and changes can be done	
+Git Pull -> Updates the changes to the local repository immediately.
+
+Git Fetch -> No possibility of merge conflicts.	
+Git Pull -> Merge conflicts are possible if the remote and the local repositories have done changes at the same place.
+
+Git Fetch -> Command for Git fetch is git fetch<remote>	
+Git Pull -> Command for Git Pull is git pull<remote><branch>
+
+
+Differnce Between Rebase and Merge:-
+
+
+Git Merge -> Git Merge merges two branches to create a “feature” branch.	
+Git Rebase -> Git Rebase rebases the feature branch to add the feature branch to the main branch.
+
+Git Merge -> Git Merge is comparatively easy. 	
+Git Rebase -> Git Rebase is comparatively harder.
+
+Git Merge -> Git Merge safeguards history.	
+Git Rebase -> Git Rabse doesn’t safeguard history.
+
+Git Merge -> Git Merge is more suitable for projects with the less active main branch.	
+Git Rebase -> Git Rebase is suitable for projects with frequently active main branches.
+
+Git Merge -> Git Merge forms a chain-like structure.
+Git Rebase -> Git Rebase forms a linear structure.
+
+Git Merge -> Git Merge is preferable for large no. of people working on a project.	
+Git Rebase -> Git RebaseGit Rebase is preferable for small groups of people.
+
+Git Merge -> Single line command is: git merge feature main
+Git Rebase -> Single line command is: git rebase main
